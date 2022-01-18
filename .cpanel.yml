@@ -3,5 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/ultb6792/public_html/rwtest/
     #- /bin/cp -r * $DEPLOYPATH #copy all from root
-    - /bin/cp -R /public/ . $DEPLOYPATH
+    - /bin/cp -R /public/ $DEPLOYPATH
    # - /bin/cp ./public/css/*.css $DEPLOYPATH/public_html/css
