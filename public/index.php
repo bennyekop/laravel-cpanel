@@ -31,7 +31,8 @@ if (file_exists($maintenance = __DIR__.'/../repositories/laravel-cpanel/storage/
 |
 */
 
-require __DIR__.'/../repositories/laravel-cpanel/vendor/autoload.php';
+//require __DIR__.'/../repositories/laravel-cpanel/vendor/autoload.php';
+require '/home/ultb6792/testrw-laravel/laravel-cpanel/vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +45,9 @@ require __DIR__.'/../repositories/laravel-cpanel/vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../repositories/laravel-cpanel/bootstrap/app.php';
+//$app = require_once __DIR__.'/../repositories/laravel-cpanel/bootstrap/app.php';
+$app = require_once '/home/ultb6792/testrw-laravel/laravel-cpanel/bootstrap/app.php';
+
 
 $kernel = $app->make(Kernel::class);
 
